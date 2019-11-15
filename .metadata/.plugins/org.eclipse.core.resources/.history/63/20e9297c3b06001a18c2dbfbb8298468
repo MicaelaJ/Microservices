@@ -1,0 +1,8 @@
+package com.formacionbdi.springboot.apps.oauth.clients;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name="servicio_usuarios")
+public interface UsuarioFeignClient {
+
+}

@@ -1,0 +1,11 @@
+package com.formacionbdi.springboot.app.zuul.oauth;
+
+import org.springframework.cloud.netflix.zuul.EnableZuulServer;
+
+
+@Configuration
+@EnableResourceServer
+
+public class ResourceServerConfig {
+
+}
